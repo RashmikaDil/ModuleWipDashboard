@@ -1,424 +1,54 @@
 const homeData = [
-    {
-        id:1,
-        line:'TR001',
-        wip:250
-    }, 
-    {
-        id:2,
-        line:'TR002',
-        wip:500
-    },
-    {
-        id:3,
-        line:'TR003',
-        wip:800
-    },
-    {
-        id:1,
-        line:'TR001',
-        wip:250
-    }, 
-    {
-        id:2,
-        line:'TR002',
-        wip:500
-    },
-    {
-        id:3,
-        line:'TR003',
-        wip:800
-    },
-    {
-        id:1,
-        line:'TR001',
-        wip:250
-    }, 
-    {
-        id:2,
-        line:'TR002',
-        wip:500
-    },
-    {
-        id:3,
-        line:'TR003',
-        wip:800
-    },
-    {
-        id:1,
-        line:'TR001',
-        wip:250
-    }, 
-    {
-        id:2,
-        line:'TR002',
-        wip:500
-    },
-    {
-        id:3,
-        line:'TR003',
-        wip:800
-    },
-    {
-        id:1,
-        line:'TR001',
-        wip:250
-    }, 
-    {
-        id:2,
-        line:'TR002',
-        wip:500
-    },
-    {
-        id:3,
-        line:'TR003',
-        wip:800
-    },
-    {
-        id:1,
-        line:'TR001',
-        wip:250
-    }, 
-    {
-        id:2,
-        line:'TR002',
-        wip:500
-    },
-    {
-        id:3,
-        line:'TR003',
-        wip:800
-    },
-    {
-        id:1,
-        line:'TR001',
-        wip:250
-    }, 
-    {
-        id:2,
-        line:'TR002',
-        wip:500
-    },
-    {
-        id:3,
-        line:'TR003',
-        wip:800
-    },
-    {
-        id:1,
-        line:'TR001',
-        wip:250
-    }, 
-    {
-        id:2,
-        line:'TR002',
-        wip:500
-    },
-    {
-        id:3,
-        line:'TR003',
-        wip:800
-    },
-    {
-        id:1,
-        line:'TR001',
-        wip:250
-    }, 
-    {
-        id:2,
-        line:'TR002',
-        wip:500
-    },
-    {
-        id:3,
-        line:'TR003',
-        wip:800
-    },
-    {
-        id:1,
-        line:'TR001',
-        wip:250
-    }, 
-    {
-        id:2,
-        line:'TR002',
-        wip:500
-    },
-    {
-        id:3,
-        line:'TR003',
-        wip:800
-    },
-    {
-        id:1,
-        line:'TR001',
-        wip:250
-    }, 
-    {
-        id:2,
-        line:'TR002',
-        wip:500
-    },
-    {
-        id:3,
-        line:'TR003',
-        wip:800
-    },
-    {
-        id:1,
-        line:'TR001',
-        wip:250
-    }, 
-    {
-        id:2,
-        line:'TR002',
-        wip:500
-    },
-    {
-        id:3,
-        line:'TR003',
-        wip:800
-    },
-    {
-        id:1,
-        line:'TR001',
-        wip:250
-    }, 
-    {
-        id:2,
-        line:'TR002',
-        wip:500
-    },
-    {
-        id:3,
-        line:'TR003',
-        wip:800
-    },
-    {
-        id:1,
-        line:'TR001',
-        wip:250
-    }, 
-    {
-        id:2,
-        line:'TR002',
-        wip:500
-    },
-    {
-        id:3,
-        line:'TR003',
-        wip:800
-    },
-    {
-        id:1,
-        line:'TR001',
-        wip:250
-    }, 
-    {
-        id:2,
-        line:'TR002',
-        wip:500
-    },
-    {
-        id:3,
-        line:'TR003',
-        wip:800
-    },
-    {
-        id:1,
-        line:'TR001',
-        wip:250
-    }, 
-    {
-        id:2,
-        line:'TR002',
-        wip:500
-    },
-    {
-        id:3,
-        line:'TR003',
-        wip:800
-    },
-    {
-        id:1,
-        line:'TR001',
-        wip:250
-    }, 
-    {
-        id:2,
-        line:'TR002',
-        wip:500
-    },
-    {
-        id:3,
-        line:'TR003',
-        wip:800
-    },
-    {
-        id:1,
-        line:'TR001',
-        wip:250
-    }, 
-    {
-        id:2,
-        line:'TR002',
-        wip:500
-    },
-    {
-        id:3,
-        line:'TR003',
-        wip:800
-    },
-    {
-        id:1,
-        line:'TR001',
-        wip:250
-    }, 
-    {
-        id:2,
-        line:'TR002',
-        wip:500
-    },
-    {
-        id:3,
-        line:'TR003',
-        wip:800
-    },
-    {
-        id:1,
-        line:'TR001',
-        wip:250
-    }, 
-    {
-        id:2,
-        line:'TR002',
-        wip:500
-    },
-    {
-        id:3,
-        line:'TR003',
-        wip:800
-    },
-    {
-        id:1,
-        line:'TR001',
-        wip:250
-    }, 
-    {
-        id:2,
-        line:'TR002',
-        wip:500
-    },
-    {
-        id:3,
-        line:'TR003',
-        wip:800
-    },
-    {
-        id:1,
-        line:'TR001',
-        wip:250
-    }, 
-    {
-        id:2,
-        line:'TR002',
-        wip:500
-    },
-    {
-        id:3,
-        line:'TR003',
-        wip:800
-    },
-    {
-        id:1,
-        line:'TR001',
-        wip:250
-    }, 
-    {
-        id:2,
-        line:'TR002',
-        wip:500
-    },
-    {
-        id:3,
-        line:'TR003',
-        wip:800
-    },
-    {
-        id:1,
-        line:'TR001',
-        wip:250
-    }, 
-    {
-        id:2,
-        line:'TR002',
-        wip:500
-    },
-    {
-        id:3,
-        line:'TR003',
-        wip:800
-    },
-    {
-        id:1,
-        line:'TR001',
-        wip:250
-    }, 
-    {
-        id:2,
-        line:'TR002',
-        wip:500
-    },
-    {
-        id:3,
-        line:'TR003',
-        wip:800
-    },
-    {
-        id:1,
-        line:'TR001',
-        wip:250
-    }, 
-    {
-        id:2,
-        line:'TR002',
-        wip:500
-    },
-    {
-        id:3,
-        line:'TR003',
-        wip:800
-    },
-    {
-        id:1,
-        line:'TR001',
-        wip:250
-    }, 
-    {
-        id:2,
-        line:'TR002',
-        wip:500
-    },
-    {
-        id:3,
-        line:'TR003',
-        wip:800
-    },
-    {
-        id:1,
-        line:'TR001',
-        wip:250
-    }, 
-    {
-        id:2,
-        line:'TR002',
-        wip:500
-    },
-    {
-        id:3,
-        line:'TR003',
-        wip:800
-    },
+    { id: 1, line: 'TR001', wip: 345 },
+    { id: 2, line: 'TR002', wip: 412 },
+    { id: 3, line: 'TR003', wip: 276 },
+    { id: 4, line: 'TR004', wip: 523 },
+    { id: 5, line: 'TR005', wip: 198 },
+    { id: 6, line: 'TR006', wip: 347 },
+    { id: 7, line: 'TR007', wip: 499 },
+    { id: 8, line: 'TR008', wip: 135 },
+    { id: 9, line: 'TR009', wip: 587 },
+    { id: 10, line: 'TR010', wip: 451 },
+    { id: 11, line: 'TR011', wip: 826 },
+    { id: 12, line: 'TR012', wip: 478 },
+    { id: 13, line: 'TR013', wip: 244 },
+    { id: 14, line: 'TR014', wip: 534 },
+    { id: 15, line: 'TR015', wip: 308 },
+    { id: 16, line: 'TR016', wip: 376 },
+    { id: 17, line: 'TR017', wip: 412 },
+    { id: 18, line: 'TR018', wip: 259 },
+    { id: 19, line: 'TR019', wip: 499 },
+    { id: 20, line: 'TR020', wip: 324 },
+    { id: 21, line: 'TR021', wip: 451 },
+    { id: 22, line: 'TR022', wip: 903 },
+    { id: 23, line: 'TR023', wip: 300 },
+    { id: 24, line: 'TR024', wip: 389 },
+    { id: 25, line: 'TR025', wip: 468 },
+    { id: 26, line: 'TR026', wip: 290 },
+    { id: 27, line: 'TR027', wip: 517 },
+    { id: 28, line: 'TR028', wip: 345 },
+    { id: 29, line: 'TR029', wip: 1015 },
+    { id: 30, line: 'TR030', wip: 528 },
+    { id: 31, line: 'TR031', wip: 1193 },
+    { id: 32, line: 'TR032', wip: 309 },
+    { id: 33, line: 'TR033', wip: 412 },
+    { id: 34, line: 'TR034', wip: 285 },
+    { id: 35, line: 'TR035', wip: 1478 },
+    { id: 36, line: 'TR036', wip: 364 },
+    { id: 37, line: 'TR037', wip: 455 },
+    { id: 38, line: 'TR038', wip: 192 },
+    { id: 39, line: 'TR039', wip: 1503 },
+    { id: 40, line: 'TR040', wip: 2301 },
+    { id: 41, line: 'TR041', wip: 487 },
+    { id: 42, line: 'TR042', wip: 398 },
+    { id: 43, line: 'TR043', wip: 2415 },
+    { id: 44, line: 'TR044', wip: 546 },
+    { id: 45, line: 'TR045', wip: 312 },
+    { id: 46, line: 'TR046', wip: 376 },
+    { id: 47, line: 'TR047', wip: 451 },
+    { id: 48, line: 'TR048', wip: 299 },
+    { id: 49, line: 'TR049', wip: 502 },
+    { id: 50, line: 'TR050', wip: 333 }
     
     
 ]

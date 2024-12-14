@@ -8,7 +8,7 @@ function App() {
   return (
  <>
 
- <AddButton></AddButton>
+ 
 <div className='body'>
 <header>
   
@@ -20,6 +20,7 @@ function App() {
 
 <footer> </footer>
 </div>
+<AddButton></AddButton>
  </>
   );
 }
